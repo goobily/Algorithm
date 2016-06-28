@@ -1,5 +1,5 @@
 # Algorithm
-## sort
+##  sort
 - 基本排序算法
-## ChinaRemainder
+##  ChinaRemainder
 - 中国剩余定理
