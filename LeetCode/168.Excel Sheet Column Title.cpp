@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 168. Excel Sheet Column Title
 
 Given a positive integer, return its corresponding column title as appear in an Excel sheet.
@@ -24,7 +24,7 @@ public:
 
 class Solution {
 public:
-/*********************************************/ //·½·¨1
+/*********************************************/ //æ–¹æ³•1
     string convertToTitle(int n) {
         string table = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         string s = "";
@@ -40,7 +40,7 @@ public:
         }
         return s;
     }
-/*********************************************/ //·½·¨2	
+/*********************************************/ //æ–¹æ³•2
 	string convertToTitle(int n) {
         if(n<=0) return "";
         string s = "";
