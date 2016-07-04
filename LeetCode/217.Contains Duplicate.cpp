@@ -30,7 +30,7 @@ public:
         }
         return false;
     }
-/*********************************************/ //方法2，156 ms	
+/*********************************************/ //方法3，56 ms	
 	 bool containsDuplicate(vector<int>& nums) {
         map<int, int> m;
         for(int i=0; i<nums.size(); ++i)
