@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 169. Majority Element
 
 Given an array of size n, find the majority element. The majority element is the element that appears more than ? n/2 ? times.
@@ -15,7 +15,7 @@ public:
 
 class Solution {
 public:
-/*********************************************/ //·½·¨1£¬16 ms
+/*********************************************/ //æ–¹æ³•1ï¼Œ16 ms
     int majorityElement(vector<int>& nums) {
         int majority = nums[0];
         int cnt = 0;
@@ -31,7 +31,7 @@ public:
         }
         return majority;
     }
-/*********************************************/ //·½·¨2£¬28 ms	
+/*********************************************/ //æ–¹æ³•2ï¼Œ28 ms	
 	int majorityElement(vector<int>& nums) {
         map<int, int> m;
         for(int i=0; i<nums.size(); ++i) {
