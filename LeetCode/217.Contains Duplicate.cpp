@@ -12,7 +12,7 @@ public:
 
 class Solution {
 public:
-/*********************************************/ //·½·¨1£¬104 ms
+/*********************************************/ //æ–¹æ³•1ï¼Œ104 ms
     bool containsDuplicate(vector<int>& nums) {
         map<int, bool> m;
         for(int i=0; i<nums.size(); ++i) {
@@ -21,7 +21,7 @@ public:
         }
         return false;
     }
-/*********************************************/ //·½·¨2£¬48 ms
+/*********************************************/ //æ–¹æ³•2ï¼Œ48 ms
 	bool containsDuplicate(vector<int>& nums) {
        unordered_map<int, bool> m;
         for (auto item : nums) {
@@ -30,7 +30,7 @@ public:
         }
         return false;
     }
-/*********************************************/ //·½·¨2£¬156 ms	
+/*********************************************/ //æ–¹æ³•2ï¼Œ156 ms	
 	 bool containsDuplicate(vector<int>& nums) {
         map<int, int> m;
         for(int i=0; i<nums.size(); ++i)

@@ -14,7 +14,7 @@ You may assume the string contains only lowercase alphabets.
 
 class Solution {
 public:
-/*********************************************/ //·½·¨1£¬12 ms
+/*********************************************/ //æ–¹æ³•1ï¼Œ12 ms
     bool isAnagram(string s, string t) {
         int arr[26] = {0};
         for(int i=0; i<s.length(); ++i)
@@ -25,7 +25,7 @@ public:
             if(arr[i] != 0) return false;
         return true;
     }
-/*********************************************/ //·½·¨1£¬76 ms   
+/*********************************************/ //æ–¹æ³•1ï¼Œ76 ms   
     bool isAnagram(string s, string t) {
         sort(s.begin(), s.end());
         sort(t.begin(), t.end());

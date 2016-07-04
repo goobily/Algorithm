@@ -38,7 +38,7 @@ public:
  */
 class Solution {
 public:
-/*********************************************/ //方法1
+/*********************************************/ //鏂规硶1
     ListNode* oddEvenList(ListNode* head) {
         if (!head) return head;
         ListNode* pOdd = head;
@@ -56,7 +56,7 @@ public:
         }
         return head;
     }
-/*********************************************/ //方法2	
+/*********************************************/ //鏂规硶2
 	ListNode* oddEvenList(ListNode* head) {
         if(head==NULL || head->next==NULL)
             return head;
