@@ -10,7 +10,7 @@ void swap(int &a, int &b)
 	b = temp;
 }
 
-/*         quicksort   ≤ªŒ»∂®       */
+/*         quicksort   ‰∏çÁ®≥ÂÆö       */
 /*************************************************/
 int partition(int X[],int p, int r)
 {
@@ -40,7 +40,7 @@ void quicksort(int X[], int left, int right)
 }
 /*************************************************/
 
-/*         heapsort    ≤ªŒ»∂®      */
+/*         heapsort    ‰∏çÁ®≥ÂÆö      */
 /*************************************************/
 void heap_up(int arr[], int n)
 {
@@ -103,7 +103,7 @@ void heapsort(int arr[], int n)
 }
 /*************************************************/
 
-/*         insertionsort    Œ»∂®      */
+/*         insertionsort    Á®≥ÂÆö      */
 /*************************************************/
 void insertsort(int arr[], int n)
 {
@@ -121,7 +121,7 @@ void insertsort(int arr[], int n)
 }
 /*************************************************/
 
-/*         bubsort     Œ»∂®     */
+/*         bubsort     Á®≥ÂÆö     */
 /*************************************************/
 void bubsort(int arr[], int n)
 {
@@ -141,7 +141,7 @@ void bubsort(int arr[], int n)
 }
 /*************************************************/
 
-/*         selsort    ≤ªŒ»∂®      */
+/*         selsort    ‰∏çÁ®≥ÂÆö      */
 /*************************************************/
 void selsort(int arr[], int n)
 {
@@ -159,7 +159,7 @@ void selsort(int arr[], int n)
 }
 /*************************************************/
 
-/*         mergesort    Œ»∂®      */
+/*         mergesort    Á®≥ÂÆö      */
 /*************************************************/
 void merge(int arr[], int p, int q, int r)
 {
@@ -204,7 +204,7 @@ void mergesort(int arr[], int p, int r)
 /*************************************************/
 
 
-/*         shellsort    ≤ªŒ»∂®      */
+/*         shellsort    ‰∏çÁ®≥ÂÆö      */
 /*************************************************/
 void shellsort(int a[], int n)
 {
